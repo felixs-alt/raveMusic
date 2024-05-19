@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,8 +14,6 @@
     "mongoose": "^8.4.0",
     "node": "^22.2.0",
     "nodemon": "^3.1.0",
-    "yt-dlp-wrap": "^2.3.12",
-    "ytdl-core": "^4.11.5",
     "ytdlp-nodejs": "^0.1.4"
   },
   "devDependencies": {

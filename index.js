@@ -12,7 +12,7 @@ app.listen(3000, () => {
 });
 
 app.post(“/ytwav”, (request, response) => {
-    const url = req.body.url;
+    const url = request.body.url;
     ytdlp.stream(url: url,{filter: "extractaudio",quality: 10, format: "wav"}):stream
-    
+    response.
  });

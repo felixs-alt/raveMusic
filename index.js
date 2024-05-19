@@ -7,6 +7,7 @@ const app = express();
 const crypto = require('crypto');
 app.use(express.json());
 app.use(express.static('files'))
+
 app.listen(3000, () => {
     console.log(`Server Started at ${3000}`)
 });
